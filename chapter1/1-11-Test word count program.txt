@@ -1,0 +1,16 @@
+It sounds like they are really trying to get the programmers to learn how to do a unit test. I would submit the following:
+
+1. input file contains zero words .
+2. input file contains 1 enormous word without any newlines 
+3. input file contains all white space without newlines 
+4. input file contains 66000 newlines 
+5. input file contains word {huge sequence of white space of different kinds}/word 
+6. input file contains 66000 single letter words, 66 to the line 
+7. input file contains 66000 words without any newlines 
+8. input file is /usr/dict contents (or equivalent)
+9. input file is full collection of moby words
+10. input file is binary (e.g. its own executable)
+11. input file is /dev/nul (or equivalent)
+
+
+reference: https://penti.org/~sederlok/misc/lang/c/the_c_programming_language_-_exercises/krx111.html
